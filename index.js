@@ -20,7 +20,7 @@ import { comparePasswords, createToken } from './Middleware/auth.js'
 
 config()
 const app = express()
-const PORT = 9090;
+const PORT = 9090
 
 app.use(cors())
 app.use(express.json())
